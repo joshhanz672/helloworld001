@@ -1,0 +1,18 @@
+<!--
+<h1>Angular</h1>
+<authors></authors>
+
+-->
+
+<style>
+    .glyphicon {
+        color: green;
+    }
+</style>
+
+<span
+   class="glyphicon"
+   [class.glyphicon-star]="isSelected"
+   [class.glyphicon-star-empty]="!isSelected"
+   (click)="onClick()"
+><</span>
